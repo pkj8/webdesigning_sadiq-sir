@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    flex: 1;
+    background-color: #22a6b3;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #fff;
+    font-size: 18px;
+}
+.search{
+    display: flex;
+    gap: 0px;
+}
+.control{
+    width: 500px;
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+.button{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links>a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+.banner{
+    flex: 1;
+    overflow: hidden;
+    height: 300px;
+}
+.banner>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.container{
+    display: flex;
+    flex: 1;
+    /* height: 600px; */
+    align-items: stretch;
+}
+.container>.categories{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+.categories>a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #22a6b3;
+    padding: 10px 15px;
+    border: 0px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    /* border-radius: 0px 20px 20px 0px; */
+}
+.categories>a:hover{
+    background-color: #037eb7;
+    color: #fff;
+}
+.container>.products{
+    padding: 1%;
+    flex: 4;
+    display: flex;
+    gap: 1%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* background-color: #f9ca24; */
+}
+.products>.card{
+    /* width: 24px; */
+    max-width: ;
+    border: 1px solid #ddd;
+    flex-wrap: wrap;
+}
+.card_body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_body>h3{
+    color: coral;
+    font-size: 24px;
+    font-weight: 600;
+}
+.card_body>h2{
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card_body>h2>del{
+    color: red;
+    font-size: 14px;
+}
+.card_body>a{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #22a6b3;
+    color: white;
+    padding: 10px 5px;
+    border: 0px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+.card_body>a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.pro_img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.footer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #c7ecee;
+}
+.footer>span:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start css
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    background-color: #eb4d4b;
+    height: 50px;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    padding: 7px 5px;
+    float: left;
+}
+form{
+    width: 60%;
+}
+.search{
+    width: 50%;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.button{
+    width: 10%;
+    height: 30px;
+    margin-top: 10px;
+}
+.links{
+    width: 20%;
+    float: right;
+    height: 30px;
+    margin: -25px 10px;
+    text-align: left;
+    box-sizing: border-box;
+    
+}
+.links>a{
+    width: 10px;
+    height: 30px;
+    background-color: #22a6b3; 
+    text-decoration-color: aquamarine;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 9px;
+    color: white;
+}
+.links>a:hover{
+    background-color: #f9ca24;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    object-position: top;
+    overflow: hidden;
+}
+.banner>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    flex: 1;
+    height: 600px;
+    align-items: stretch;
+}
+.contianer>.categories{
+    flex: 1;
+    background-color: red;
+} */
